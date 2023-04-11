@@ -1,6 +1,4 @@
-/**
- * Описывают отдельную карту, которая может отображаться рубашкой вверх или изображением вверх.
- */
+
  class Card {
     #image;
     #element;
@@ -12,7 +10,7 @@
         this.#element = document.createElement("div");
         this.#element.classList.add("card");
         this.#element.style.backgroundImage = `url('${this.coverPath}')`;
-        this.#element.connectedCard = this; // в свойстве DOM объекта будет находится ссылка на экземпляр карты
+        this.#element.connectedCard = this; 
     }
 
     get imagePath() {

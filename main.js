@@ -1,4 +1,3 @@
-/** Комментарий, который начинается с двух звездочек - JSDoc комментарий, отображается в подсказке Visual Studio */
 
 let board = document.querySelector("#board");
 let score = document.querySelector("#atemptNumOutput");
